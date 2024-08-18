@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer{
+  .element-center{
+    @apply flex justify-center items-center;
+  }
+  .btn{
+    @apply bg-[#42b0d1] hover:bg-[#8cdae4] transition-all duration-200;
+  }
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background: #1c2230;
+}
